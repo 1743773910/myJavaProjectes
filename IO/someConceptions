@@ -1,0 +1,6 @@
+节点流可以从一个特定的数据源读写数据，如FileReader、FileWriter
+
+处理流(包装流)是连接在已存在的流之上，为程序提供更为强大的读写功能
+，如BufferedReader、BufferedWriter
+
+有关Stream的是处理字节的，有关Writer和Reader的是处理字符的

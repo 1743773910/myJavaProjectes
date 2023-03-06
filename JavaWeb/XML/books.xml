@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<books>
+    <book sn="SN1234">
+        <name>????</name>
+        <price>29.9</price>
+        <year>2008</year>
+    </book>
+    <book>
+        <name>?????</name>
+        <price>30</price>
+        <year>2009</year>
+    </book>
+</books>

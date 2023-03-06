@@ -1,0 +1,26 @@
+Tomact是一种Web服务器，提供对jsp和servlet的支持，
+是一种轻量级的JavaWeb服务器
+
+启动Tomacat 打开cmd，输入startup.bat, 若出现新窗口则打开成功
+验证：http://localhost:8080/, 默认访问root工程中的index.jsp
+     若输入的地址中只有工程名无资源名则默认访问index.html
+
+修改Tomcat默认端口号: 找到Tomcat目录下的server.xml文件,connector port=xxxxx
+
+部署web工程到Tomcat中：
+    method1：把web工程的目录拷贝到Tomcat的webapps目录下即可
+             访问页面：http://localhost:8080/ + 页面名
+    method2：找到Tomcat下的conf下的Catalina下的localhost文件，
+             创建xml配置文件，配置文件中内容如下
+             <Context path="工程访问路径" docBase="工程目录路径"/>
+            工程访问路径表示浏览器输入的路径
+            工程目录路径表示要访问的页面
+
+
+
+
+
+
+
+
+
